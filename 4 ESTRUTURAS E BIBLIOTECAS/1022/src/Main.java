@@ -9,6 +9,8 @@ public class Main {
         
         for (int i = 0; i <= quantidade; i++) {
             String expressao = scanner.nextLine();
+            String[] dados = expressao.split(" ");
+            System.out.println(dados[0]);
         }
     }
  
