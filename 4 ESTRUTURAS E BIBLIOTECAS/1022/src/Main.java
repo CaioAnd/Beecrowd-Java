@@ -6,12 +6,31 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         int quantidade = scanner.nextInt();
+        scanner.nextLine(); //Consome quebra de linha deixada pelo nextInt();
         
         for (int i = 0; i <= quantidade; i++) {
-            String expressao = scanner.nextLine();
-            String[] dados = expressao.split(" ");
-            System.out.println(dados[0]);
+            String dados = scanner.nextLine();
+            char operador = dados.charAt(6);
+            
+            switch (operador) {
+                case '+':
+                    
+                    break;
+
+                case '-':
+                    
+                    break;
+            
+                case '*':
+                    
+                    break;
+
+                case '/':
+                    
+                    break;
+            }
         }
+
+        scanner.close();
     }
- 
 }
